@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Python 2.7 will retire in...`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `Life is short why we need python3`,
     author: `@Trevor`,
   },
   plugins: [
