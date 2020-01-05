@@ -9,7 +9,7 @@ const IndexPage = () => (
     <h3>What's all this, then?</h3>
     <p>
         Python 2.7 <a href="https://www.python.org/dev/peps/pep-0373/">will not be maintained past 2020</a>.
-        That date has been updated to <a href="https://github.com/python/devguide/pull/344">January 1, 2020</a>. This clock has been updated accordingly.
+        That date has been updated to <a href="https://www.python.org/dev/peps/pep-0373/">Early April, 2020</a>. This clock has been updated accordingly.
     </p>
     <p>
         Python 2, thank you for your years of faithful service.

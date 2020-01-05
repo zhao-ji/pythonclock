@@ -19,10 +19,10 @@ export default class extends Component {
     }
 
     queryCountDown = () => {
-        const timestampOf2020 = 1577836800;
+        const timestampOf2020 = 1585699200;
         const now = Math.floor(Date.now() / 1000);
         const gap = timestampOf2020 - now;
-        this.setState({
+        if (gap > 0) this.setState({
             year: Math.floor(gap / (3600 * 24 * 365)),
             month: Math.floor(gap % (3600 * 24 * 365) / (3600 * 24 * 30)),
             day: Math.floor(gap % (3600 * 24 * 30) / (3600 * 24)),
